@@ -1,0 +1,165 @@
+.biodata{
+    border-radius: 11px;
+
+}
+.biojudul{
+    background-color: rgb(35, 180, 160);
+    border-width: medium;
+    border: 11px;
+    border-style: solid;
+    border-color: rgb(202, 67, 112);
+    text-align: center;
+    padding-bottom: 16px;
+    
+}
+
+.isibio{
+    background-color: rgb(252, 212, 242);
+    border-width: medium;
+    border: 11px;
+    border-style: solid;
+    border-color: rgb(202, 67, 112);
+}
+
+.judul{
+    width: 25%;
+    padding-top: 12px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.tag{
+    background-color: rgb(100, 177, 169);
+    width: 25%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: center;
+
+
+}
+.form{
+    margin-bottom: 25px;
+    background-color: rgb(99, 41, 92);
+    width: 25%;
+    padding-bottom: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    padding-top: 12px;
+
+}
+.inputname{
+    border: 10px;
+    background-color: rgb(130, 206, 206);
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10px;
+    padding: 12px 20px;
+    color: rgb(20, 20, 19);
+}
+.inputtentang{
+    border: 10px;
+    background-color: rgb(130, 206, 206);
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10px;
+    padding: 12px 20px;
+}
+.inputpendidikan{
+    border: 10px;
+    background-color: rgb(130, 206, 206);
+    border-style: solid;
+    border-width: medium;Product Management
+    border-radius: 10px;
+    padding: 12px 20px;
+}
+.inputpengalaman{
+    border: 10px;
+    background-color: rgb(130, 206, 206);
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10px;
+    padding: 12px 20px;
+}
+.submit{
+  background-color: rgb(67, 119, 121);
+  color: rgb(130, 206, 206);
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.submit:hover {
+    background-color: rgb(172, 9, 9);
+    color: rgb(130, 206, 206);
+  }
+.reset{
+  color: rgb(130, 206, 206);
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: lightcoral ;
+}
+.reset:hover {
+    background-color: crimson;
+    color: white;
+  }
+.inputfoto{
+    border: 10px;
+    background-color: rgb(130, 206, 206);
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10px;
+    padding: 12px 20px; 
+}
+.inputkeahlian{
+    border: 10px;
+    background-color: rgb(130, 206, 206);
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10px;
+    padding: 12px 20px; 
+}
+.table{
+    margin: auto;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10px;
+}
+.judul{
+    background-color: rgb(238, 169, 229);
+    border-style: solid;
+    border-width: medium;
+}
+.isi{
+    background-color: rgb(130, 206, 206);
+    border-style: solid;
+    border-width: medium;
+
+}
+.a{
+    border-bottom-style: solid;
+    border-width: medium;
+    border-right-style: solid;
+}
+.z{
+    border-bottom-style: solid;
+    border-width: medium;
+}
+.y{
+    border-width: medium;
+}
+.b{
+    border-width: medium;
+    border-right-style: solid;
+}
+.u{
+    color: rgb(255, 251, 246);
+}

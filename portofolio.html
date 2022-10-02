@@ -1,59 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portofolio</title>
+    <title>Portofolio </title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <h1>Salsabilah Rizka Kamilah</h1>
-    <img src="Salsabilah Rizka Kamilah.jpg" width="100" hight="100">
-    <p align="justify" Saya adalah mahasiswa aktif Universitas Airlangga yang sedang menempuh jurusan S1 Administrasi Publik</p>
+    <h1 class="judul">Portofolio</h1>
 
-    <h2>Informasi Pribadi</h2>
-<table border="1"
-    <tr>
-        <td>Tempat Lahir</td>
-        <td>Lamongan</td>
-    </tr>
-        <td>Tanggal Lahir</td>
-        <td>26 September 2001</td>
-    </tr>
-        <td>Agama</td>
-        <td>Islam</td>
-    </tr>
-        <td>Jenis Kelamin</td>
-        <td>Perempuan</td>
-    </tr>
-        <td>Tinggi Badan</td>
-        <td>172 cm</td>
-    </tr>
-        <td>Berat Badan</td>
-        <td>42 kg</td>
-    </tr>
-        <td>Alamat</td>
-        <td>Jl Raya Mantup 1A,Lamongan</td>
+    <p class="tag">Formulir Portofolio</p>
+    <form class="form">
+        <p class="u">Nama:</p> 
+        <input class="inputname" type="text" name="nama" placeholder="masukkan nama">
+        <p class="u">Tentang:</p>
+        <input class="inputtentang" type="text" tentang="Tentang" placeholder="masukkan tentang" style="height: 100px ">
+        <p class="u"> Keahlian:</p>
+        <p class="inputkeahlian">
+            <input type="checkbox" keahlian="Keahlian" id="Problem Solving">
+            <label for="Problem Solving">Problem Solving</label>
+            <input type="checkbox" keahlian="Keahlian" id="Policy Analyst">
+            <label for="Policy Analyst">Policy Analyst</label>
+            <input type="checkbox" keahlian="Keahlian" id="Media Creative">
+            <label for="Media Creative">Media Creative</label>
+            <input type="checkbox" keahlian="Keahlian" id="Product Management">
+            <label for="Product Management">Product Management</label>
+            <input type="checkbox" keahlian="Keahlian" id="Content Writer">
+            <label for="Content Writer">Content Writer</label>
+        </p>
+        <p class="u">Pendidikan:</p>
+        <input class="inputpendidikan" type="text" pendidikan="Pendidikan" placeholder="pendidikan">
+        <div>
+            <p class="u">Upload Foto:</p>
+            <input class="inputfoto" type="file" class="form-control" id="inputGroupFile01">
+        </div>
+        <br></br>
+        <div>
+            <input class="submit" type="submit" value="kirim">
+            <input class="reset" type="reset" value="reset">
+        </div>
+    </form>
 
-</table>
 
-    <h2>Keahlian Saya</h2>
-    <o1></o1>
-        <li>Product Management</li>
-        <li>Content Writer</li>
-        <li>Media Creative</li>
-        <li>Problem Solving</li>
-        <li>Policy Analyst</li>
-    </o1>
-    <h2>Pendidikan Saya</h2>
-    <u1></u1>
-        <li>S1 Administrasi Publik</li>
-        <li>SMA Negeri 2 Lamongan</li>
-        <li>SMP Negeri 1 Lamongan</li>
-        <h2>Contact</h2>
-        <p><a href="https://mail.google.com/mail/u/0/#inbox">Email:salsabilah.rizka.kamilah-2020@fisip.unair.ac.id</a></p>
-        <p><a href="https://www.instagram.com/_salsaabilar">Instagram: @_salsaabilar</a></p>
-        <p><a href="file:///D:/SEAL%20HTML/portofolio.html"></a></p>
-     
+    <br>
+    <table class="table">
+        <tr class="judul">
+            <th class="a">No</th>
+            <th class="a">Nama</th>
+            <th class="a">Tentang</th>
+            <th class="a">Keahlian</th>
+            <th class="a">Pendidikan</th>
+            <th class="z">Foto</th>
+        </tr>
+        <tr class="isi">
+            <td class="b">1</td>
+            <td class="b">Salsabilah Rizka Kamilah</td>
+            <td class="b">Hallo, Saya adalah seorang mahasiswa Universitas Airlangga yang sedang menempuh jurusan S1 Administrasi Publik.</td>
+            <td class="b">
+                <ul>
+                    <li>Problem Solving</li>
+                    <li>Policy Analyst</li>
+                    <li>Product Management</li>
+                    <li>Content Writer</li>
+                    <li>Media Creative</li>
+                </ul>
+            </td>
+            <td class="b">
+                Universitas Airlangga
+            </td>
+            <td class="y">
+                <img src="Salsabilah Rizka Kamilah.jpg" alt="Salsabilah Rizka Kamilah" width="100" height="150">
+            </td>
+        </tr>
+    </table>
+    </br>
 </body>
+
 </html>
