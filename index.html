@@ -1,17 +1,45 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Biodata</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      
 </head>
 
 <body>
-    <div class="nav">
-        <ul>
-            <li><a href="">Biodata</a></li>
-            <li><a href="portofolio.html">Portofolio</a></li>
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm sticky-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto ">
+          <li class="nav-item">
+            <a class="nav-link active fw-bold text-dark" aria-current="page" href="">Biodata</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fw-bold text-dark" aria-current="page" href="portofolio.html">Portofolio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#Tentang">Tentang</a></li>
+              <li><a class="dropdown-item" href="#Keahlian">Keahlian</a></li>
+              <li><a class="dropdown-item" href="#PendidikanSaya">Pendidikan</a></li>
+              <li><a class="dropdown-item" href="#KontakSaya">Kontak Saya</a></li>
+            </ul>
+          </li>
         </ul>
+      </div>
     </div>
+  </nav>
+        
 
     <div class="biodata">
         <div class="biojudul">
@@ -19,7 +47,7 @@
             <img src="Salsabilah Rizka Kamilah.jpg" width="210" height="240">
         </div>
         <div class="Isibio">
-            <h2>Tentang Saya</h2>
+            <h2 id="Tentang">Tentang Saya</h2>
             <p class="Bioa"> Hai!! Saya seorang Mahasiswa Jurusan Administrasi Publik Universitas Airlangga yang
                 memiliki kualifikasi di bidang administrasi, analisis, advokasi, dan researcher. Aktif untuk terus
                 menggali informasi, menganalisis case study, problem solving, brainstorming, menghadirkan solusi yang inovatif,
@@ -29,7 +57,7 @@
                 city, human resources, digital transformation specialist, community development, programming, dan UI/UX.
             </p>
             </p>
-            <h2>Keahlian Saya</h2>
+            <h2 id="Keahlian">Keahlian Saya</h2>
             <ol class="bioa">
                 <li>Public Relation</li>
                 <li>Content Writer</li>
@@ -39,20 +67,22 @@
                 <li>Self Management</li>
             </ol>
 
-            <h2>Pendidikan Saya</h2>
+            <h2 id="PendidikanSaya">Pendidikan Saya</h2>
             <ul>
                 <li>2020-2024:Universitas Airlangga/Administrasi Publik</li>
                 <li>2017-2020:SMA NEGERI 2 LAMONGAN</li>
                 <li>2014-2017:SMP NEGERI 1 LAMONGAN</li>
             </ul>
 
-            <H2>Kontak Saya</H2>
+            <H2 id="KontakSaya">Kontak Saya</H2>
             <a href="https://www.linkedin.com/in/salsabilah-rizka-kamilah-309836196/">visit Linkedin:Salsabilah Rizka
                 Kamilah</a>
             <a href="portofolio.html">Portofolio</a>
         </div>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
